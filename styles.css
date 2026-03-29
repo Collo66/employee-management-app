@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f6f8;
+    color: #222;
+}
+
+.navbar {
+    background: #2d3e50;
+    padding: 1em 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.navbar li {
+    margin: 0 1.5em;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.2s;
+}
+.navbar a:hover {
+    color: #ffb347;
+}
+
+.home-main, .form-main, .contacts-main {
+    max-width: 700px;
+    margin: 2em auto;
+    background: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2d3e50;
+}
+
+.employee-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.employee-form label {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+}
+.employee-form input {
+    padding: 0.7em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+.employee-form .btn {
+    background: #2d3e50;
+    color: #fff;
+    border: none;
+    padding: 0.8em;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.employee-form .btn:hover {
+    background: #ffb347;
+    color: #222;
+}
+
+.contacts-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5em;
+}
+.contacts-table th, .contacts-table td {
+    border: 1px solid #e0e0e0;
+    padding: 0.8em;
+    text-align: left;
+}
+.contacts-table th {
+    background: #2d3e50;
+    color: #fff;
+}
+.contacts-table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.btn {
+    background: #2d3e50;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    margin-right: 0.3em;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 0.95em;
+}
+.btn:hover {
+    background: #ffb347;
+    color: #222;
+}
+.details-btn {
+    background: #4caf50;
+}
+.details-btn:hover {
+    background: #81c784;
+    color: #222;
+}
+.edit-btn {
+    background: #2196f3;
+}
+.edit-btn:hover {
+    background: #64b5f6;
+    color: #222;
+}
+.delete-btn {
+    background: #e53935;
+}
+.delete-btn:hover {
+    background: #ff867c;
+    color: #222;
+}
